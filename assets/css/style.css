@@ -1,0 +1,38 @@
+.bank_status{
+    margin-left: 10px;
+    /* margin-bottom: 66px; */
+    position: relative;
+    top: 9px;
+    background: white;
+    right: -15px;
+    z-index: 1;
+    padding: 5px;
+}
+.bank_section{
+    width: 50%;
+}
+.bank_form{
+    border: 2px solid grey;
+    border-radius: 10px; 
+    position: relative;
+    padding: 20px; 
+}
+#bank_btn{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.customer_frm{
+    margin: 5px;
+}
+input[type=text]{
+    margin-left: 100px;
+}
+input[type=number]{
+    margin-left: 100px;
+}
+#bank_data thead tr{
+    background-color: skyblue;
+}
+#bank_data tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
